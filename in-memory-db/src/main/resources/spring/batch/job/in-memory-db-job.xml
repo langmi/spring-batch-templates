@@ -25,8 +25,8 @@
         inline xmlns, otherwise it would look like 
         'batch:job, batch:step, etc.' 
     -->
-    <job id="inMemoryJob" xmlns="http://www.springframework.org/schema/batch">
-        <step id="inMemoryStep">
+    <job id="inMemoryDbJob" xmlns="http://www.springframework.org/schema/batch">
+        <step id="inMemoryDbStep">
             <tasklet>
                 <chunk 
                     reader="itemReader"
