@@ -43,7 +43,7 @@
         <log4j.configuration>log4j/log4j.properties</log4j.configuration>
         <!-- often used dependency version data -->
         <spring.batch.version>2.1.8.RELEASE</spring.batch.version>
-        <spring.framework.version>3.0.5.RELEASE</spring.framework.version>
+        <spring.framework.version>3.0.6.RELEASE</spring.framework.version>
         <slf4j.version>1.6.2</slf4j.version>
     </properties>
 
@@ -158,7 +158,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.8.2</version>
+            <version>4.9</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
