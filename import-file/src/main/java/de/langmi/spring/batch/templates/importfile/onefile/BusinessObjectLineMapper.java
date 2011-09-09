@@ -15,7 +15,7 @@ public class BusinessObjectLineMapper implements LineMapper<BusinessObject> {
         // i could use StringUtils.trimToNull, but i did not want to introduce
         // the maven dependency just for that
         if (line != null && !"".equals(line)) {
-            return new BusinessObject(lineNumber, line);
+            return new BusinessObject(line);
         } else {
             return null;
         }

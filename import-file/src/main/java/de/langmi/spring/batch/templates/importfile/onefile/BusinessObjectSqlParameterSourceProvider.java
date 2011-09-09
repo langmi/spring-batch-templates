@@ -18,8 +18,7 @@ public class BusinessObjectSqlParameterSourceProvider implements ItemSqlParamete
         return new MapSqlParameterSource(new HashMap<String, Object>() {
 
             {
-                put("id", item.getId());
-                put("attribute", item.getId());
+                put("attribute", item.getAttribute());
             }
         });
     }

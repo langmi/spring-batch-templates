@@ -58,12 +58,10 @@
                 <![CDATA[
                     INSERT INTO BUSINESS_OBJECTS 
                         (
-                            id,
                             attribute
                         ) 
                     VALUES 
                         ( 
-                            :id,
                             :attribute
                         )
                 ]]>
@@ -80,7 +78,7 @@
 -->
     
     <bean id="placeholderProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location" value="classpath:spring/batch/job/one-file-job.properties" />
+        <property name="location" value="classpath:spring/batch/job/onefile/one-file-job.properties" />
         <property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
         <property name="ignoreUnresolvablePlaceholders" value="false" />
     </bean>

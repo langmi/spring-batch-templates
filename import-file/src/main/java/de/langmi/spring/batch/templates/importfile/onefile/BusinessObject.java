@@ -7,19 +7,13 @@ package de.langmi.spring.batch.templates.importfile.onefile;
  */
 public class BusinessObject {
 
-    private int id;
     private String attribute;
 
-    public BusinessObject(int id, String attribute) {
-        this.id = id;
+    public BusinessObject(String attribute) {
         this.attribute = attribute;
     }
 
     public String getAttribute() {
         return attribute;
-    }
-
-    public int getId() {
-        return id;
     }
 }
