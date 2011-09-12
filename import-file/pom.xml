@@ -27,7 +27,7 @@
     
     <name>import-file</name>
     <url>https://github.com/langmi/spring-batch-templates</url>
-    <description>TODO: Change me!</description>
+    <description>Spring Batch templates: import file(s)</description>
 
 
     <properties>
